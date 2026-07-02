@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+  --font-serif: "Libre Caslon Text", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  
+  --color-brand-brown: #6B4F3A;
+  --color-brand-beige: #F5F0E6;
+  --color-brand-cream: #fff8f4;
+  --color-brand-gold: #D4AF37;
+  --color-brand-dark: #160f0a;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-dark);
+}
+
+/* Custom scrollbar for gallery and list */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-brown);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-gold);
+}

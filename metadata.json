@@ -1,0 +1,6 @@
+{
+  "name": "Dinar Furniture",
+  "description": "Modern classic furniture catalog with online ordering, pricing negotiation, product management, and a comprehensive admin statistics dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
